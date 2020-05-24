@@ -1,0 +1,19 @@
+{
+  "name": "Protractor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor config.js",
+    "update": "webdriver-manager update"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine-data-provider": "^2.2.0",
+    "protractor": "^5.4.4",
+    "protractor-jasmine2-html-reporter": "0.0.7"
+  }
+}
