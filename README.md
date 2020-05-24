@@ -52,6 +52,6 @@ Start the web driver manager. This step will run the web driver manager in the b
 
 Use below command in another Termincal of your local existing framework directory
 
-### 1. protractor test
+### 1. npm test
 
 This will start the execution of the test suite.
