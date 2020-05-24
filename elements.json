@@ -1,0 +1,8 @@
+{
+  "Locators": {
+    "firstInput": "first",
+    "secondInput": "second",
+    "op": "operator",
+    "goButton": "gobutton"
+  }
+}

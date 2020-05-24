@@ -14,7 +14,10 @@ describe('First Test', function () {
   using(testData.specData, function (data) {
     it('add', async function () {
       await calcPage.add(data.num1, data.num2);
-      await expect(element(by.tagName('h2')).getText()).toEqual(data.num3);
+      browser.sleep(5000);
+      await expect(element(by.css('.container h2')).getText()).toEqual(
+        data.num3
+      );
       browser.sleep(5000);
     });
   });
